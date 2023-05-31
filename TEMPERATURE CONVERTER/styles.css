@@ -1,0 +1,77 @@
+body {
+    background-image: url("background.png");
+    background-size: cover;
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 90px;
+    border: 1px solid ; 
+    border-radius: 10px; 
+       
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  label {
+    font-size: 18px;
+    color: #666e6e;
+  }
+  
+  input[type="text"] {
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    border: none;
+    background-color: #b1f6f651;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  select {
+    font-size: 18px;
+    padding: 4px;
+    margin: 10px;
+    width: 200px;
+    border: none;
+    background-color: #b1f6f651;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 4px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    background-color: rgba(0, 208, 255, 0.703);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000000;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #b1f6f651; 
+  }
