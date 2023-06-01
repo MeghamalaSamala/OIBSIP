@@ -1,0 +1,30 @@
+/* CSS for header section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #name {
+    text-align: left;
+  }
+  
+  /* CSS for introduction section */
+  .intro {
+    font-size: 120%;
+  }
+  
+  /* CSS for skills section */
+  .skills {
+    font-size: 20px;
+  }
+  
+  /* CSS for contact section */
+  .contact {
+    list-style-type: none;
+  }
+  
+  .contact li {
+    margin-bottom: 10px;
+  }
+  
